@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contenteditable resume</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="editable-resume">
+
+    <header>
+
+        <h1 class="heading">CONTENTEDITABLE RESUME</h1>
+
+    </header>
+<div class="firstdiv">
+
+    
+    <form class="edit-resume" method="post">
+
+        <fieldset class="applicant-info">
+
+            <legend>APPLICANT INFORMATION</legend>
+            <label for="Name">Name :</label>
+            <input type="text" class="name" required>
+
+            <br>
+            <br>
+
+            <label for="F_Name">Father Name :</label>
+            <input type="text" class="f_name" required>
+
+            <br>
+            <br>
+
+            <label for="cnic">CNIC :</label>
+            <input type="number" class="cnic" placeholder="ENTER NIC WITHOUT DASHES" required>
+
+
+            <br>
+            <br>
+
+            <label for="mail">Email : </label>
+            <input type="email" class="email">
+
+
+            <br>
+            <br>
+
+            <label for="address">Address</label>
+            <input type="text" class="address" maxlength="50">
+
+
+        </fieldset>
+
+
+        <fieldset class="education">
+
+            <legend>EDUCATIONAL INFORMATION</legend>
+
+            <textarea class="educational" rows="15" cols="20"></textarea>
+
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>SKILLS</legend>
+
+            <textarea class="skills" cols="20" rows="15"></textarea>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>EXPERIANCE</legend>
+
+            <textarea id="experiance" cols="10" rows="20"></textarea>
+
+        </fieldset>
+<br>
+
+<fieldset>
+<legend>About me</legend>
+    <textarea name="about" class="about" rows="10" cols="15" placeholder="Write something about your self"></textarea>
+    <br>
+    <br>
+</fieldset>
+
+
+
+        <button type="submit" class="btn">Submit</button>
+        
+    </form>
+
+    <br>
+    <br>
+
+
+    <div class="display-resume" contenteditable="true">
+
+
+
+    </div>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

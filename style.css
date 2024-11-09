@@ -1,0 +1,62 @@
+.heading {
+    text-align: center;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+input {
+    border-radius: 5px;
+}
+
+
+.editable-resume {
+    width: 600px;
+    
+}
+
+
+.edit-resume {
+
+    background-color: blueviolet;
+    border-radius: 10px;
+
+}
+
+
+fieldset {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top-style: groove;
+}
+
+
+legend {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+
+.btn {
+    background-color: antiquewhite;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    margin-left: 250px;
+    border: none;
+
+}
+
+.btn:hover{
+    opacity:0.5;
+    transform: scale(1.1);
+}
+
+.display-resume{
+    background-color: blueviolet;
+    padding: 10px;
+}
